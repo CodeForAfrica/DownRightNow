@@ -3,8 +3,7 @@ Simple github-page to redirect to when doing maintenance.
 
 ### Nginx Configuration
 
-```
-
+```nginx
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
